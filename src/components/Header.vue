@@ -6,7 +6,7 @@
   <div class="navbar">
     <img src="https://ossimg.goa999.vip//GoaGame/other/h5setting_20231005151012qocp.png" alt="Left Icon"
       class="navbar-left-icon" />
-    <div>
+    <div class="flex">
       <img src="@/assets/mail.svg" alt="Left Icon" class="navbar-right-icon-mess" />
       <img src="@/assets/download.svg" alt="Left Icon" class="navbar-right-icon-down" />
     </div>

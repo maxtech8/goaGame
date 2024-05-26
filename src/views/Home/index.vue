@@ -1,9 +1,9 @@
 <script setup>
-import Header from '../components/Header.vue'
-import Carousel from '../components/Carousel.vue'
-import Notificationbar from '../components/Notificationbar.vue'
-import Popular from '../components/Popular.vue'
-import Newinfo from '../components/Newinfo.vue'
+import Header from '@/components/Header.vue'
+import Carousel from '@/components/pages/HomePage/Carousel.vue'
+import Notificationbar from '@/components/pages/HomePage/Notificationbar.vue'
+import Popular from '@/components/pages/HomePage/Popular.vue'
+import Newinfo from '@/components/pages/HomePage/Newinfo.vue'
 </script>
 
 <template>
@@ -323,21 +323,6 @@ main {
     }
 }
 
-@media (max-width: 320px) {
-    .menu_box1_item {
-        height: 95px;
-        background-size: cover;
-        background-position: center;
-    }
-
-    .menu_box1 {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 20px;
-        height: 95px;
-    }
-}
-
 @media (max-width: 375px) {
     .container {
         margin-top: 40px;
@@ -410,6 +395,21 @@ main {
         flex-direction: column;
         align-items: center;
         margin-bottom: -15px;
+    }
+}
+
+@media (max-width: 320px) {
+    .menu_box1_item {
+        height: 95px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .menu_box1 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        height: 95px;
     }
 }
 </style>
